@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #0F172A;
+    --textlow: #8A929D;
+    --textnormal: #E2E8F0;
+  }
+}
