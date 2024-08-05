@@ -34,7 +34,7 @@ export function Home() {
                 </button>
               </div>
               <div>
-                <nav className="text-textlow font-semibold text-sm space-y-6">
+                <nav className="text-textlow font-semibold text-sm space-y-7">
                   <li className="hover:text-textnormal transition-all">
                     <a href="#">ABOUT</a>
                   </li>
