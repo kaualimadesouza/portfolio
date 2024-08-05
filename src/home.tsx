@@ -257,7 +257,7 @@ export function Home() {
         </div>
       ) : (
         <div className="min-h-screen max-w-[1200px] m-auto px-20">
-          <div className="fixed min-h-screen w-1/3 flex flex-col list-none justify-between py-28">
+          <div className="fixed min-h-screen w-1/4 flex flex-col list-none justify-between py-28">
             <div className="space-y-32">
               <div className="space-y-2">
                 <h1 className="font-bold text-5xl">Kauã Lima</h1>
