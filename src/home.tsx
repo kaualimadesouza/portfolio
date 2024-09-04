@@ -20,7 +20,7 @@ export function Home() {
             <div className="space-y-32">
               <div className="space-y-2">
                 <h1 className="font-bold text-5xl">Kauã Lima</h1>
-                <h2 className="font-semibold text-xl">Backend programmer</h2>
+                <h2 className="font-semibold text-xl">Fullstack programmer</h2>
                 <p className="font-light text-sm opacity-40">
                   Freelancer programmer engaged in building
                   <br /> efficient REST API applications.
@@ -97,9 +97,49 @@ export function Home() {
                 <h3 className="text-base font-bold">PROJECTS</h3>
                 <div className="space-y-8 ">
                   <a
+                    target="_blank"
+                    href="https://piadas-co.vercel.app/"
+                    className="flex gap-5 hover:opacity-80 cursor-pointer"
+                  >
+                    <img
+                      src="/piadas-img.png"
+                      className="w-[142px] h-[70px]"
+                      alt="project1"
+                    />
+
+                    <div className="space-y-3 ">
+                      <div>
+                        <a href="#" className="flex gap-1.5 items-center">
+                          <h4 className="text-sm font-bold">Piadas.co</h4>
+                          <ArrowUpRight />
+                        </a>
+                      </div>
+                      <p className="text-textlow text-sm">
+                        Piadas.co is a project that aims to entertain its users
+                        by generating a random joke from a famous Brazilian
+                        creator.
+                      </p>
+                      <div className="space-x-3">
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          Next.js
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          React
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          Typescript
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          MongoDb
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
                     className="flex gap-5 hover:opacity-80 cursor-pointer"
                     target="_blank"
-                    href="https://mymovielistdatabase-frontend.vercel.app/"
+                    href="https://github.com/kaualimadesouza/mymovielistdatabase-frontend.git "
                   >
                     <img
                       src="/mymovielistdb-img.png"
@@ -139,7 +179,7 @@ export function Home() {
                   <a
                     className="flex gap-5 hover:opacity-80 cursor-pointer"
                     target="_blank"
-                    href="https://ibank-frontend.vercel.app/"
+                    href="https://github.com/kaualimadesouza/ibank-frontend.git"
                   >
                     <img
                       src="/ibank-img.png"
@@ -261,9 +301,7 @@ export function Home() {
             <div className="space-y-32">
               <div className="space-y-2">
                 <h1 className="font-bold text-5xl">Kauã Lima</h1>
-                <h2 className="font-semibold text-xl">
-                  Programador Freelancer
-                </h2>
+                <h2 className="font-semibold text-xl">Programador Fullstack</h2>
                 <p className="font-light text-sm opacity-40">
                   Programador freelancer engajado na construção de
                   <br /> aplicações API REST eficientes.
@@ -341,7 +379,47 @@ export function Home() {
                 <div className="space-y-8 ">
                   <a
                     target="_blank"
-                    href="https://mymovielistdatabase-frontend.vercel.app/"
+                    href="https://piadas-co.vercel.app/"
+                    className="flex gap-5 hover:opacity-80 cursor-pointer"
+                  >
+                    <img
+                      src="/piadas-img.png"
+                      className="w-[142px] h-[70px]"
+                      alt="project1"
+                    />
+
+                    <div className="space-y-3 ">
+                      <div>
+                        <a href="#" className="flex gap-1.5 items-center">
+                          <h4 className="text-sm font-bold">Piadas.co</h4>
+                          <ArrowUpRight />
+                        </a>
+                      </div>
+                      <p className="text-textlow text-sm">
+                        O piadas.co é um projeto que busca divertir seu usuário,
+                        gerando uma piada aleatória de algum criador famoso do
+                        Brasil.
+                      </p>
+                      <div className="space-x-3">
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          Next.js
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          React
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          Typescript
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          MongoDb
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    target="_blank"
+                    href="https://github.com/kaualimadesouza/mymovielistdatabase-frontend.git"
                     className="flex gap-5 hover:opacity-80 cursor-pointer"
                   >
                     <img
@@ -382,7 +460,7 @@ export function Home() {
                   <a
                     className="flex gap-5 hover:opacity-80 cursor-pointer"
                     target="_blank"
-                    href="https://ibank-frontend.vercel.app/"
+                    href="https://github.com/kaualimadesouza/ibank-frontend.git"
                   >
                     <img
                       src="/ibank-img.png"

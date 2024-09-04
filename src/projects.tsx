@@ -41,7 +41,59 @@ export function Projects() {
                   <a
                     className="flex gap-5 hover:opacity-80 cursor-pointer "
                     target="_blank"
-                    href="https://mymovielistdatabase-frontend.vercel.app/"
+                    href="https://piadas-co.vercel.app/"
+                  >
+                    <img
+                      src="/piadas-img.png"
+                      className="w-[142px] h-[70px]"
+                      alt="project1"
+                    />
+
+                    <div className="space-y-3 ">
+                      <div className="flex gap-5">
+                        <a href="#" className="flex gap-1.5 items-center">
+                          <h4 className="text-sm font-bold">Piadas.co</h4>
+                          <ArrowUpRight />
+                        </a>
+
+                        <a
+                          href="https://github.com/kaualimadesouza/piadas.co.git"
+                          target="_blank"
+                          className="opacity-60 hover:opacity-100"
+                        >
+                          Repository
+                        </a>
+                      </div>
+                      <p className="text-textlow text-sm">
+                        Piadas.co is a project that aims to entertain its users
+                        by generating a random joke from a famous Brazilian
+                        creator.
+                      </p>
+                      <div className="space-x-3">
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          Next.js
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          React.js
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          Typescript
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          MongoDb
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          Tailwind CSS
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <li className="border-t border-zinc-50 pt-6 border-opacity-40">
+                  <a
+                    className="flex gap-5 hover:opacity-80 cursor-pointer "
+                    target="_blank"
                   >
                     <img
                       src="/mymovielistdb-img.png"
@@ -101,7 +153,6 @@ export function Projects() {
                   <a
                     className="flex gap-5 hover:opacity-80 cursor-pointer "
                     target="_blank"
-                    href="https://ibank-frontend.vercel.app/"
                   >
                     <img
                       src="/ibank-img.png"
@@ -281,7 +332,10 @@ export function Projects() {
                 </li>
 
                 <li>
-                  <a href="https://github.com/kaualimadesouza?tab=repositories" className="flex gap-1.5 font-medium opacity-60 hover:opacity-100 transition-all">
+                  <a
+                    href="https://github.com/kaualimadesouza?tab=repositories"
+                    className="flex gap-1.5 font-medium opacity-60 hover:opacity-100 transition-all"
+                  >
                     <span>Other Projects</span>
                     <ArrowRight />
                   </a>
@@ -318,7 +372,59 @@ export function Projects() {
                   <a
                     className="flex gap-5 hover:opacity-80 cursor-pointer "
                     target="_blank"
-                    href="https://mymovielistdatabase-frontend.vercel.app/"
+                    href="https://piadas-co.vercel.app/"
+                  >
+                    <img
+                      src="/piadas-img.png"
+                      className="w-[142px] h-[70px]"
+                      alt="project1"
+                    />
+
+                    <div className="space-y-3 ">
+                      <div className="flex gap-5">
+                        <a href="#" className="flex gap-1.5 items-center">
+                          <h4 className="text-sm font-bold">Piadas.co</h4>
+                          <ArrowUpRight />
+                        </a>
+
+                        <a
+                          href="https://github.com/kaualimadesouza/piadas.co.git"
+                          target="_blank"
+                          className="opacity-60 hover:opacity-100"
+                        >
+                          Repository
+                        </a>
+                      </div>
+                      <p className="text-textlow text-sm">
+                      O piadas.co é um projeto que busca divertir seu usuário,
+                        gerando uma piada aleatória de algum criador famoso do
+                        Brasil.
+                      </p>
+                      <div className="space-x-3">
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          Next.js
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          React.js
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          Typescript
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          MongoDb
+                        </span>
+                        <span className="px-5 py-2 bg-black rounded-full text-xs">
+                          Tailwind CSS
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <li className="border-t border-zinc-50 pt-6 border-opacity-40">
+                  <a
+                    className="flex gap-5 hover:opacity-80 cursor-pointer "
+                    target="_blank"
                   >
                     <img
                       src="/mymovielistdb-img.png"
@@ -378,7 +484,6 @@ export function Projects() {
                   <a
                     className="flex gap-5 hover:opacity-80 cursor-pointer "
                     target="_blank"
-                    href="https://ibank-frontend.vercel.app/"
                   >
                     <img
                       src="/ibank-img.png"
@@ -558,7 +663,10 @@ export function Projects() {
                 </li>
 
                 <li>
-                  <a href="https://github.com/kaualimadesouza?tab=repositories" className="flex gap-1.5 font-medium opacity-60 hover:opacity-100 transition-all">
+                  <a
+                    href="https://github.com/kaualimadesouza?tab=repositories"
+                    className="flex gap-1.5 font-medium opacity-60 hover:opacity-100 transition-all"
+                  >
                     <span>Other Projects</span>
                     <ArrowRight />
                   </a>
