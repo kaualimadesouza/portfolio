@@ -15,8 +15,8 @@ export function Home() {
   return (
     <div>
       {language == "ingles" ? (
-        <div className="min-h-screen max-w-[1200px] m-auto px-20">
-          <div className="fixed min-h-screen w-1/5 flex flex-col list-none justify-between py-28">
+        <div className="min-h-screen max-w-[1200px] m-auto xl:px-20 pt-28 xl:pt-0">
+          <div className="xl:fixed xl:min-h-screen xl:w-1/5 flex flex-col list-none xl:justify-between xl:py-28 px-12 xl:px-0 gap-8 xl:gap-0">
             <div className="space-y-32">
               <div className="space-y-2">
                 <h1 className="font-bold text-5xl">Kauã Lima</h1>
@@ -27,13 +27,13 @@ export function Home() {
                 </p>
                 <button
                   onClick={changeLanguage}
-                  className="rounded-md h-8 border border-zinc-100 border-opacity-50 p-2 hover:opacity-70 transition-all flex items-center gap-2"
+                  className="rounded-md h-8 border border-zinc-100 border-opacity-50 p-2 hover:opacity-70 transition-all xl:flex items-center gap-2 hidden"
                 >
                   <img src="/united-states.png" className="h-7" />
                   <span className="text-textlow">Change the language</span>
                 </button>
               </div>
-              <div>
+              <div className="hidden xl:block">
                 <nav className="text-textlow font-semibold text-sm space-y-7">
                   <li className="hover:text-textnormal transition-all">
                     <a href="#">ABOUT</a>
@@ -70,11 +70,10 @@ export function Home() {
               </nav>
             </div>
           </div>
-
-          <div className="flex w-full py-28">
-            <div className="w-1/2"></div>
-            <div className="w-1/2 space-y-8">
-              <p className="text-textlow">
+          <div className="flex w-full xl:py-28">
+            <div className="xl:w-1/2"></div>
+            <div className="xl:w-1/2 space-y-8 p-12 xl:p-0">
+              <p className="text-textlow text-justify xl:text-left">
                 My name is <span className="text-textnormal">Kauã</span> and I
                 am 19 years old, studying higher education at{" "}
                 <span className="text-textnormal">USP</span> and have a degree
@@ -89,6 +88,7 @@ export function Home() {
                 is constant learning and building{" "}
                 <span className="text-textnormal">backend applications</span>.
               </p>
+              
               <div
                 className="h-px bg-white opacity-40 w-full"
                 id="projects"
@@ -114,12 +114,12 @@ export function Home() {
                           <ArrowUpRight />
                         </a>
                       </div>
-                      <p className="text-textlow text-sm">
+                      <p className="text-textlow xl:text-sm text-xs">
                         Piadas.co is a project that aims to entertain its users
                         by generating a random joke from a famous Brazilian
                         creator.
                       </p>
-                      <div className="space-x-3">
+                      <div className="space-x-3 hidden xl:block">
                         <span className="px-5 py-2 bg-black rounded-full text-xs">
                           Next.js
                         </span>
@@ -154,12 +154,12 @@ export function Home() {
                           <ArrowUpRight />
                         </a>
                       </div>
-                      <p className="text-textlow text-sm">
+                      <p className="text-textlow xl:text-sm text-xs">
                         MyMovieListDb is a movie manager where you can add
                         movies, check directors' ratings, and find any searched
                         movies.
                       </p>
-                      <div className="space-x-3">
+                      <div className="space-x-3 hidden xl:block">
                         <span className="px-5 py-2 bg-black rounded-full text-xs">
                           Java
                         </span>
@@ -193,13 +193,13 @@ export function Home() {
                           <ArrowUpRight />
                         </a>
                       </div>
-                      <p className="text-textlow text-sm">
+                      <p className="text-textlow xl:text-sm text-xs">
                         iBank is a fictional digital bank where you can create
                         an account and manage your stored money. You can also
                         make transfers to other people and manage your credit
                         and debit cards.
                       </p>
-                      <div className="space-x-3">
+                      <div className="space-x-3 hidden xl:block">
                         <span className="px-5 py-2 bg-black rounded-full text-xs">
                           Java
                         </span>
@@ -225,6 +225,7 @@ export function Home() {
                 </a>
               </div>
 
+  
               <div
                 className="h-px bg-white opacity-40 w-full"
                 id="education"
@@ -249,7 +250,7 @@ export function Home() {
                       <span className="text-sm text-textlow font-light">
                         2024 - Actually
                       </span>
-                      <p className="text-textlow text-sm">
+                      <p className="text-textlow xl:text-sm text-xs">
                         Bacharelo's degree in Information Systems taking the 2nd
                         semester with expected graduation in 2027
                       </p>
@@ -272,7 +273,7 @@ export function Home() {
                       <span className="text-sm text-textlow font-light">
                         2020 - 2022
                       </span>
-                      <p className="text-textlow text-sm">
+                      <p className="text-textlow xl:text-sm text-xs">
                         Technical course in systems development, in which I was
                         introduced to programming and the world of technology.
                       </p>
@@ -281,7 +282,7 @@ export function Home() {
                 </div>
               </div>
 
-              <p className="pt-20 text-textlow text-xs w-3/4">
+              <p className="xl:pt-20 pt-10 text-textlow text-xs w-3/4">
                 Loosely designed in{" "}
                 <span className="text-textnormal">Figma</span> and coded in{" "}
                 <span className="text-textnormal">Visual Studio Code</span> by
@@ -296,8 +297,8 @@ export function Home() {
           </div>
         </div>
       ) : (
-        <div className="min-h-screen max-w-[1200px] m-auto px-20">
-          <div className="fixed min-h-screen w-1/5 flex flex-col list-none justify-between py-28">
+        <div className="min-h-screen max-w-[1200px] m-auto xl:px-20 pt-28 xl:pt-0">
+          <div className="xl:fixed xl:min-h-screen xl:w-1/5 flex flex-col list-none xl:justify-between xl:py-28 px-12 xl:px-0 gap-8 xl:gap-0">
             <div className="space-y-32">
               <div className="space-y-2">
                 <h1 className="font-bold text-5xl">Kauã Lima</h1>
@@ -308,13 +309,13 @@ export function Home() {
                 </p>
                 <button
                   onClick={changeLanguage}
-                  className="rounded-md h-8 border border-zinc-100 border-opacity-50 p-2 hover:opacity-70 transition-all flex items-center gap-2"
+                  className="rounded-md h-8 border border-zinc-100 border-opacity-50 p-2 hover:opacity-70 transition-all xl:flex items-center gap-2 hidden"
                 >
                   <img src="/brazil.png" className="h-7" />
                   <span className="text-textlow">Troque a Língua</span>
                 </button>
               </div>
-              <div>
+              <div className="hidden xl:block">
                 <nav className="text-textlow font-semibold text-sm space-y-6">
                   <li className="hover:text-textnormal transition-all">
                     <a href="#">SOBRE</a>
@@ -352,10 +353,10 @@ export function Home() {
             </div>
           </div>
 
-          <div className="flex w-full py-28">
-            <div className="w-1/2"></div>
-            <div className="w-1/2 space-y-8">
-              <p className="text-textlow">
+          <div className="flex w-full xl:py-28">
+            <div className="xl:w-1/2"></div>
+            <div className="xl:w-1/2 space-y-8 p-12 xl:p-0">
+              <p className="text-textlow text-justify xl:text-left">
                 Meu nome é{" "}
                 <span className="text-textnormal">Kauã Lima de Souza</span>,
                 Tenho 19 anos e cursando ensino superior na{" "}
@@ -395,12 +396,12 @@ export function Home() {
                           <ArrowUpRight />
                         </a>
                       </div>
-                      <p className="text-textlow text-sm">
+                      <p className="text-textlow xl:text-sm text-xs">
                         O piadas.co é um projeto que busca divertir seu usuário,
                         gerando uma piada aleatória de algum criador famoso do
                         Brasil.
                       </p>
-                      <div className="space-x-3">
+                      <div className="space-x-3 hidden xl:block">
                         <span className="px-5 py-2 bg-black rounded-full text-xs">
                           Next.js
                         </span>
@@ -435,12 +436,12 @@ export function Home() {
                           <ArrowUpRight />
                         </a>
                       </div>
-                      <p className="text-textlow text-sm">
+                      <p className="text-textlow xl:text-sm text-xs">
                         É um gerenciador de filmes onde você pode adicionar
                         filmes, verificar notas de diretores e encontrar
                         qualquer filme que esteja no banco de dados.
                       </p>
-                      <div className="space-x-3">
+                      <div className="space-x-3 hidden xl:block">
                         <span className="px-5 py-2 bg-black rounded-full text-xs">
                           Java
                         </span>
@@ -474,13 +475,13 @@ export function Home() {
                           <ArrowUpRight />
                         </a>
                       </div>
-                      <p className="text-textlow text-sm">
+                      <p className="text-textlow xl:text-sm text-xs">
                         iBank é um banco fictício onde você pode criar contas e
                         gerenciar seu dinheiro, com a possibilidade de realizar
                         transferências para outras contas e consultar seus
                         cartões de crédito e débito.
                       </p>
-                      <div className="space-x-3">
+                      <div className="space-x-3 hidden xl:block">
                         <span className="px-5 py-2 bg-black rounded-full text-xs">
                           Java
                         </span>
@@ -530,7 +531,7 @@ export function Home() {
                       <span className="text-sm text-textlow font-light">
                         2024 - Atualmente
                       </span>
-                      <p className="text-textlow text-sm">
+                      <p className="text-textlow xl:text-sm text-xs">
                         2º semestre do Bacharelado em sistemas de informação com
                         expectativa de formação em 2027
                       </p>
@@ -553,7 +554,7 @@ export function Home() {
                       <span className="text-sm text-textlow font-light">
                         2020 - 2022
                       </span>
-                      <p className="text-textlow text-sm">
+                      <p className="text-textlow xl:text-sm text-xs">
                         Curso técnico em Desenvolvimento de Sistemas, no qual
                         fui introduzido à programação e ao mundo da tecnologia.
                       </p>
@@ -562,7 +563,7 @@ export function Home() {
                 </div>
               </div>
 
-              <p className="pt-20 text-textlow text-xs w-3/4">
+              <p className="xl:pt-20 pt-10 text-textlow text-xs w-3/4">
                 Loosely designed in{" "}
                 <span className="text-textnormal">Figma</span> and coded in{" "}
                 <span className="text-textnormal">Visual Studio Code</span> by
