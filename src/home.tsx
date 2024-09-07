@@ -63,7 +63,7 @@ export function Home() {
                 </li>
 
                 <li className="hover:text-textnormal transition-all underline">
-                  <a href="/Curriculo_Kauã-Lima-de-Souza.pdf" target="_blank">
+                  <a href="/Curriculo.pdf" target="_blank">
                     View Full Resume
                   </a>
                 </li>
@@ -345,7 +345,7 @@ export function Home() {
                 </li>
 
                 <li className="hover:text-textnormal transition-all underline">
-                  <a href="/Curriculo_Kauã-Lima-de-Souza.pdf" target="_blank">
+                  <a href="/Curriculo.pdf" target="_blank">
                     Ver Currículo Inteiro
                   </a>
                 </li>
