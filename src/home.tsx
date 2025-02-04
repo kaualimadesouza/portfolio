@@ -20,10 +20,10 @@ export function Home() {
 						<div className="space-y-32">
 							<div className="space-y-2">
 								<h1 className="font-bold text-5xl">Kauã Lima</h1>
-								<h2 className="font-semibold text-xl">Fullstack programmer</h2>
+								<h2 className="font-semibold text-xl">Software Developer</h2>
 								<p className="font-light text-sm opacity-40">
-									Freelancer programmer engaged in building
-									<br /> efficient REST API applications.
+									Software Developer engaged in building
+									<br /> efficient good Pages and create great REST API applications.
 								</p>
 								<button
 									onClick={changeLanguage}
@@ -75,7 +75,7 @@ export function Home() {
 						<div className="xl:w-1/2 space-y-8 p-12 xl:p-0">
 							<p className="text-textlow text-justify xl:text-left">
 								My name is <span className="text-textnormal">Kauã</span> and I
-								am 19 years old, studying higher education at{" "}
+								am 20 years old, studying higher education at{" "}
 								<span className="text-textnormal">USP</span> and have a degree
 								in technical{" "}
 								<span className="text-textnormal">
@@ -301,10 +301,10 @@ export function Home() {
 						<div className="space-y-32">
 							<div className="space-y-2">
 								<h1 className="font-bold text-5xl">Kauã Lima</h1>
-								<h2 className="font-semibold text-xl">Programador Fullstack</h2>
+								<h2 className="font-semibold text-xl">Software Developer</h2>
 								<p className="font-light text-sm opacity-40">
-									Programador freelancer engajado na construção de
-									<br /> aplicações API REST eficientes.
+									Software Developer engajado na criação de
+									<br />boas páginas web e ótimas API's REST.
 								</p>
 								<button
 									onClick={changeLanguage}
@@ -314,8 +314,8 @@ export function Home() {
 									<span className="text-textlow">Troque a Língua</span>
 								</button>
 							</div>
-							<div className="hidden xl:block ">
-								<nav className="text-textlow font-semibold text-sm space-y-6 hide-below-750">
+							<div className="hidden xl:block">
+								<nav className="text-textlow font-semibold text-sm space-y-7 hide-below-750">
 									<li className="hover:text-textnormal transition-all">
 										<a href="#">SOBRE</a>
 									</li>
@@ -358,8 +358,8 @@ export function Home() {
 							<p className="text-textlow text-justify xl:text-left">
 								Meu nome é{" "}
 								<span className="text-textnormal">Kauã Lima de Souza</span>,
-								Tenho 19 anos e cursando ensino superior na{" "}
-								<span className="text-textnormal">USP</span> , possuo técnico em{" "}
+								Tenho 20 anos e cursando ensino superior na{" "}
+								<span className="text-textnormal">USP</span>, possuo técnico em{" "}
 								<span className="text-textnormal">
 									Desenvolvimento de Sistemas pela ETEC
 								</span>
