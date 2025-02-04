@@ -9,3 +9,9 @@
     --textnormal: #E2E8F0;
   }
 }
+
+@media (max-height: 750px) {
+  .hide-below-750 {
+    display: none;
+  }
+}
