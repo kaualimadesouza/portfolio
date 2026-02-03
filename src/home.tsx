@@ -99,7 +99,7 @@ export function Home() {
 									<a
 										target="_blank"
 										href="https://piadas-co.vercel.app/"
-										className="flex gap-5 hover:opacity-80 cursor-pointer"
+										   className="flex gap-5 hover:opacity-80"
 									>
 										<img
 											src="/piadas-img.png"
@@ -137,7 +137,7 @@ export function Home() {
 									</a>
 
 									<a
-										className="flex gap-5 hover:opacity-80 cursor-pointer"
+										   className="flex gap-5 hover:opacity-80"
 										target="_blank"
 										href="https://github.com/kaualimadesouza/mymovielistdatabase-frontend.git "
 									>
@@ -177,7 +177,7 @@ export function Home() {
 									</a>
 
 									<a
-										className="flex gap-5 hover:opacity-80 cursor-pointer"
+										   className="flex gap-5 hover:opacity-80"
 										target="_blank"
 										href="https://github.com/kaualimadesouza/ibank-frontend.git"
 									>
@@ -380,7 +380,7 @@ export function Home() {
 									<a
 										target="_blank"
 										href="https://piadas-co.vercel.app/"
-										className="flex gap-5 hover:opacity-80 cursor-pointer"
+										   className="flex gap-5 hover:opacity-80"
 									>
 										<img
 											src="/piadas-img.png"
@@ -420,7 +420,7 @@ export function Home() {
 									<a
 										target="_blank"
 										href="https://github.com/kaualimadesouza/mymovielistdatabase-frontend.git"
-										className="flex gap-5 hover:opacity-80 cursor-pointer"
+										   className="flex gap-5 hover:opacity-80"
 									>
 										<img
 											src="/mymovielistdb-img.png"
@@ -458,7 +458,7 @@ export function Home() {
 									</a>
 
 									<a
-										className="flex gap-5 hover:opacity-80 cursor-pointer"
+										   className="flex gap-5 hover:opacity-80"
 										target="_blank"
 										href="https://github.com/kaualimadesouza/ibank-frontend.git"
 									>

@@ -41,7 +41,7 @@ export function Projects() {
               <ul className="space-y-5">
                 <li className="border-t border-zinc-50 pt-6 border-opacity-40">
                   <a
-                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 cursor-pointer "
+                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 "
                     target="_blank"
                     href="https://piadas-co.vercel.app/"
                   >
@@ -94,7 +94,7 @@ export function Projects() {
 
                 <li className="border-t border-zinc-50 pt-6 border-opacity-40">
                   <a
-                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 cursor-pointer "
+                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 "
                     target="_blank"
                   >
                     <img
@@ -154,7 +154,7 @@ export function Projects() {
 
                 <li className="border-t border-zinc-50 pt-6 border-opacity-40">
                   <a
-                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 cursor-pointer "
+                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 "
                     target="_blank"
                   >
                     <img
@@ -216,7 +216,7 @@ export function Projects() {
 
                 <li className="border-t border-zinc-50 pt-6 border-opacity-40">
                   <a
-                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 cursor-pointer "
+                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 "
                     target="_blank"
                     href="https://github.com/kaualimadesouza/desafio-picpayclone"
                   >
@@ -269,7 +269,7 @@ export function Projects() {
                 </li>
 
                 <li className="border-t border-zinc-50 pt-6 border-opacity-40">
-                  <div className="flex flex-col xl:flex-row gap-5 hover:opacity-80 cursor-pointer ">
+                  <div className="flex flex-col xl:flex-row gap-5 hover:opacity-80 ">
                     <img
                       src="/trips-img.png"
                       className="w-[142px] h-[70px]"
@@ -379,7 +379,7 @@ export function Projects() {
               <ul className="space-y-5">
                 <li className="border-t border-zinc-50 pt-6 border-opacity-40">
                   <a
-                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 cursor-pointer "
+                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 "
                     target="_blank"
                     href="https://piadas-co.vercel.app/"
                   >
@@ -432,7 +432,7 @@ export function Projects() {
 
                 <li className="border-t border-zinc-50 pt-6 border-opacity-40">
                   <a
-                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 cursor-pointer "
+                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 "
                     target="_blank"
                   >
                     <img
@@ -492,7 +492,7 @@ export function Projects() {
 
                 <li className="border-t border-zinc-50 pt-6 border-opacity-40">
                   <a
-                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 cursor-pointer "
+                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 "
                     target="_blank"
                   >
                     <img
@@ -553,7 +553,7 @@ export function Projects() {
 
                 <li className="border-t border-zinc-50 pt-6 border-opacity-40">
                   <a
-                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 cursor-pointer "
+                    className="flex flex-col xl:flex-row gap-5 hover:opacity-80 "
                     target="_blank"
                     href="https://github.com/kaualimadesouza/desafio-picpayclone"
                   >
@@ -606,7 +606,7 @@ export function Projects() {
                 </li>
 
                 <li className="border-t border-zinc-50 pt-6 border-opacity-40">
-                  <div className="flex flex-col xl:flex-row gap-5 hover:opacity-80 cursor-pointer ">
+                  <div className="flex flex-col xl:flex-row gap-5 hover:opacity-80 ">
                     <img
                       src="/trips-img.png"
                       className="w-[142px] h-[70px]"
