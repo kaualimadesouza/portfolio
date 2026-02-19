@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+	darkMode: 'class',
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
@@ -12,6 +13,9 @@ export default {
 					"radial-gradient(600px at 736px 364px, rgba(29, 78, 216, 0.15), transparent 80%)",
 			},
 			backgroundColor: {
+				screen: "var(--bg)",
+			},
+			borderColor: {
 				screen: "var(--bg)",
 			},
 			fontFamily: {
